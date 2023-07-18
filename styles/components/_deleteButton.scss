@@ -1,0 +1,16 @@
+@import '../abstract/variaveis';
+
+.deleteButton {
+    color: $contrast-color-2;
+    position: relative;
+    padding: 0.5rem;
+    background-color: $contrast-color-1;
+    border: 2px solid $contrast-color-2;
+    margin-left: 1rem;
+    nav-left: 30%;
+    align-self: center;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 40px;
+    font-weight: 700;
+}

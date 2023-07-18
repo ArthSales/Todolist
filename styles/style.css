@@ -1,0 +1,114 @@
+body {
+  background-image: url(../../assets/paisagem-172856282.jpg);
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-size: cover;
+  background-color: #2C3333;
+  font-family: "Belanosima", sans-serif;
+  color: #CBE4DE;
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  margin-top: 4rem;
+  background-color: white;
+  width: 80%;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.list {
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.todolist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+}
+.todolist li {
+  display: flex;
+  background-color: #0E8388;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border-radius: 8px;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (min-width: 1024px) {
+  .todolist li {
+    padding: 1rem 6rem;
+  }
+}
+
+.add {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  color: #2E4F4F;
+}
+.add .title {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+.add .form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+.add input {
+  width: 90%;
+}
+@media (min-width: 1024px) {
+  .add input {
+    width: 160%;
+  }
+}
+.add .cadastrar {
+  background: #0E8388;
+  color: #CBE4DE;
+  border: 2px solid #2E4F4F;
+  border-radius: 4px;
+  width: 60%;
+  height: 30px;
+  text-shadow: none;
+}
+.add .cadastrar:hover {
+  background: #CBE4DE;
+  color: #0E8388;
+  cursor: pointer;
+}
+
+hr {
+  position: relative;
+  top: 2%;
+  width: 80%;
+  opacity: 20%;
+}
+
+.deleteButton {
+  color: #F86F03;
+  position: relative;
+  padding: 0.5rem;
+  background-color: #ffc670;
+  border: 2px solid #F86F03;
+  margin-left: 1rem;
+  nav-left: 30%;
+  align-self: center;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 40px;
+  font-weight: 700;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,29 @@
+@import './variaveis';
+
+@mixin lg {
+    @media (min-width: 1024px){
+        @content;
+    }
+}
+
+body {
+    background-image: url(../../assets/paisagem-172856282.jpg);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: cover;
+    background-color: $background-color;
+    font-family: $font;
+    color: $tertiary-color;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    margin-top: 4rem;
+    background-color: white;
+    width: 80%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
